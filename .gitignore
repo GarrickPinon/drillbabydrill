@@ -1,0 +1,72 @@
+# ── API Keys & credentials ────────────────────────────────────────────────
+APIs/
+*.env
+.env.*
+**/api_key*
+**/apikey*
+.env.local
+
+# ── Proprietary strategy engine (entire folder) ───────────────────────────
+strategy/
+orbit_quant_correlation_engine.py
+energy_etl.py
+
+# ── Proprietary scoring models, signal weights & thresholds ───────────────
+data/regime_scoring_model.json
+data/policy_validation.json
+data/correlation_findings.json
+data/edge_value_report.json
+data/signal_velocity.json
+data/platform_policy.json
+
+# ── Rolling signal & edge history (reconstructible, but novel combinations)─
+data/edge_history.json
+data/signal_history.json
+
+# ── Live macro state (contains e7, regime confidence, policy state) ────────
+data/macro_context.json
+# viz/dashboard/public/macro_context.json  <- demo placeholder IS committed
+
+# ── Scatter plots (reveal correlation pairs under investigation) ───────────
+viz/scatterplots/
+
+# ── Unrelated project bleed-in ────────────────────────────────────────────
+docs/
+
+# ── Claude internal files & skill libraries ───────────────────────────────
+.claude/
+claude-skills/
+claude-scientific-skills/
+
+# ── Backtest outputs — summary JSON OK, raw rets excluded inside script ───
+# data/backtest_results.json        <- included (summary only)
+# data/extended_backtest_results.json <- included (summary only)
+
+# ── Large media (exceeds GitHub 25 MB limit) ──────────────────────────────
+images/ORBITPlatform.gif
+
+# ── Python cache ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# ── Node / Vite ───────────────────────────────────────────────────────────
+node_modules/
+viz/dashboard/node_modules/
+viz/dashboard/dist/
+viz/dashboard/.vite/
+
+# ── OS noise ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp

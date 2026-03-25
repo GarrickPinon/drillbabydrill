@@ -1,0 +1,58 @@
+{
+  "generated_at": "2026-03-25T03:15:00.910927Z",
+  "split_date": "2006-01-01",
+  "strategy": "s2_momentum_easing_10d",
+  "history_years": 40,
+  "resolution": "daily_10d_rebalance",
+  "results": {
+    "in_sample": {
+      "label": "s2 easing 10d",
+      "period": "in_sample",
+      "n": 163,
+      "ann_ret": 4.81,
+      "ann_vol": 29.13,
+      "sharpe": 0.165,
+      "sharpe_se": 0.079,
+      "ci90": [
+        -0.473,
+        0.822
+      ],
+      "hit_rate": 0.46,
+      "max_dd": 50.21
+    },
+    "out_of_sample": {
+      "label": "s2 easing 10d",
+      "period": "out_of_sample",
+      "n": 97,
+      "ann_ret": 35.57,
+      "ann_vol": 22.96,
+      "sharpe": 1.549,
+      "sharpe_se": 0.151,
+      "ci90": [
+        1.032,
+        2.033
+      ],
+      "hit_rate": 0.536,
+      "max_dd": 9.9
+    },
+    "full": {
+      "label": "s2 easing 10d",
+      "period": "full",
+      "n": 260,
+      "ann_ret": 16.28,
+      "ann_vol": 27.11,
+      "sharpe": 0.601,
+      "sharpe_se": 0.067,
+      "ci90": [
+        0.099,
+        1.106
+      ],
+      "hit_rate": 0.488,
+      "max_dd": 50.21
+    }
+  },
+  "ic": {
+    "in_sample": -0.0186,
+    "out_of_sample": 0.3092
+  }
+}

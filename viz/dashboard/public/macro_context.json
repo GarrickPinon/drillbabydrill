@@ -1,0 +1,49 @@
+{
+  "generated_at": "2026-01-01T00:00:00Z",
+  "_note": "Demo snapshot — live data updates require backend engine",
+  "macro_regime": "neutral",
+  "regime_confidence": 0.72,
+  "composite_score": 0.501,
+  "jacobian_signal_vector": {
+    "s1_solar_error_proxy": 0.0,
+    "s2_sentiment_drift_proxy": 0.512,
+    "s3_regime_indicator": 0.48,
+    "s4_asdc_scarcity_proxy": 0.0,
+    "s5_vpp_dispatch_proxy": 0.0,
+    "s6_macro_composite": 0.501,
+    "s7_dxy_wti_r": 0.0,
+    "s8_wti_10y_r": 0.0,
+    "_raw": {}
+  },
+  "live_ercot_context": {
+    "price_hub_houston": 0.0,
+    "as_ecrs": 0.0,
+    "load_mw": 0,
+    "solar_mw": 0,
+    "wind_mw": 0
+  },
+  "cycles": {
+    "economic": "neutral",
+    "credit": "neutral",
+    "commodity": "neutral"
+  },
+  "key_correlations": {},
+  "alerts": [
+    "Demo mode — connect backend engine for live signals"
+  ],
+  "policy_state": {
+    "firing": false,
+    "position_scale": 0.0,
+    "rebalance_days": 10,
+    "e7": 0.0,
+    "e7_status": "CLEAR",
+    "clarity": 0.0,
+    "summary": "HOLD — demo mode",
+    "alerts": [],
+    "sharpe_projection": {
+      "expected_sharpe": 0.0,
+      "ci_90": [0.0, 0.0],
+      "basis": "demo"
+    }
+  }
+}

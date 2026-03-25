@@ -1,0 +1,19 @@
+# Solar Cliff Parameters
+solar_cliff:
+  start_hour_ending: 17 # HE17
+  end_hour_ending: 21   # HE21
+  
+# Baseline volatility parameters per regime
+regime_parameters:
+  solar_surplus:
+    ou_sigma: 0.5
+    mean_reversion: 0.2
+  evening_ramp:
+    ou_sigma: 50.0 # High vol during cliff
+    mean_reversion: 0.8
+  thermal_stress:
+    ou_sigma: 150.0
+    mean_reversion: 0.05
+  overnight_baseload:
+    ou_sigma: 2.0
+    mean_reversion: 0.1

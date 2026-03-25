@@ -1,0 +1,15 @@
+# Houston area settlement points (nodes)
+houston_nodes:
+  - id: "HB_HOUSTON"
+    description: "Houston Hub (aggregate of Houston nodes)"
+    fill_rate_base: 0.8 # Higher liquidity
+  - id: "LZ_HOUSTON"
+    description: "Houston Load Zone"
+    fill_rate_base: 0.9 
+  - id: "RN_HOUSTON_1"
+    description: "Specific resource node (example)"
+    fill_rate_base: 0.4 # Sub-node liquidity is lower
+    
+# RTC+B specific mapping
+virtual_as_enabled: true
+scarcity_price_ceiling: 2000 # RTSWCAP

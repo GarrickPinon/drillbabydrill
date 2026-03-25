@@ -1,0 +1,16 @@
+# Risk limits and parameters for the HFT Execution core
+global_risk_limits:
+  max_mwh_exposure: 50.0
+  max_deviation_from_sced: 0.02 # 2% max deviation before penalties apply
+
+# Parameter defaults (updated continuously by Jacobian bridge)
+default_parameters:
+  max_position_mw: 10.0
+  bid_ask_threshold: 0.5
+  da_rt_spread_trigger: 15.0
+  as_allocation_weight: 0.5 
+  kill_volatility: 100.0
+
+penalty_costs:
+  admin_fee_per_mwh: 0.555
+  setpoint_deviation_mw: 3.0 # Hard cap in MW

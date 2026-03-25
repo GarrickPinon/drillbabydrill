@@ -1,0 +1,14 @@
+# HFT Engine 3D Visualization & Backtesting
+
+# Core dependencies
+numpy>=1.24.0
+pyvista>=0.43.0
+imageio>=2.31.0
+imageio-ffmpeg>=0.4.9
+
+# Backtesting & Plotting
+pandas>=2.0.0
+matplotlib>=3.7.0
+
+# Optional GPU acceleration
+# vispy>=0.14.0

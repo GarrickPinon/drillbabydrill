@@ -1,0 +1,65 @@
+{
+  "generated_at": "2026-03-25T02:48:29.108818Z",
+  "split_date": "2019-01-01",
+  "strategy": "s2_momentum_easing_10d",
+  "results": {
+    "in_sample": {
+      "label": "s2 easing 10d",
+      "period": "in_sample",
+      "n": 46,
+      "ann_ret": 26.62,
+      "ann_vol": 13.8,
+      "sharpe": 1.928,
+      "sharpe_se": 0.249,
+      "ci90": [
+        0.761,
+        3.163
+      ],
+      "hit_rate": 0.652,
+      "max_dd": 7.39
+    },
+    "out_of_sample": {
+      "label": "s2 easing 10d",
+      "period": "out_of_sample",
+      "n": 49,
+      "ann_ret": 52.74,
+      "ann_vol": 74.53,
+      "sharpe": 0.708,
+      "sharpe_se": 0.16,
+      "ci90": [
+        -0.604,
+        1.533
+      ],
+      "hit_rate": 0.51,
+      "max_dd": 31.1
+    },
+    "full": {
+      "label": "s2 easing 10d",
+      "period": "full",
+      "n": 97,
+      "ann_ret": 35.57,
+      "ann_vol": 22.96,
+      "sharpe": 1.549,
+      "sharpe_se": 0.151,
+      "ci90": [
+        1.036,
+        2.044
+      ],
+      "hit_rate": 0.536,
+      "max_dd": 9.9
+    }
+  },
+  "ic": {
+    "in_sample": 0.3088,
+    "out_of_sample": 0.3136
+  },
+  "publishable_claim": {
+    "oos_sharpe": 0.708,
+    "oos_ci90": [
+      -0.604,
+      1.533
+    ],
+    "oos_ann_ret": 52.74,
+    "full_sharpe": 1.549
+  }
+}

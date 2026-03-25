@@ -1,0 +1,25 @@
+:root {
+  font-family: 'IBM Plex Sans', Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #EDF0F5;
+  background-color: #0B1120;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: block;
+  min-width: 100vw;
+  min-height: 100vh;
+  background-color: #0B1120;
+  overflow-x: hidden;
+}
+
+#root {
+  width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
