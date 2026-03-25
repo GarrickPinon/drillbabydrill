@@ -165,9 +165,9 @@ ORBIT Platform/
 - [x] Jacobian bridge (macro → HFT parameter vector)
 - [x] Walk-forward backtest (2006–2018 in-sample / 2019–2026 holdout)
 - [x] React terminal dashboard with live policy state
-- [ ] ERCOT historical SPP bulk ingest (e3 signal)
-- [ ] Vol-targeting wrapper on active periods
-- [ ] Vercel deployment
+- [ ] ERCOT historical SPP bulk ingest (e3 signal will be gathered over time)
+- [x] Vol-targeting wrapper on active periods
+- [x] Vercel deployment
 
 ---
 
