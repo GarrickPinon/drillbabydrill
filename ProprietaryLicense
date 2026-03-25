@@ -1,0 +1,40 @@
+Copyright (c) 2026 Garrick Piñón.  
+All rights reserved.
+
+This repository and all associated files, documentation, data, models, 
+signals, research artifacts, and analytical outputs (collectively, the 
+"Software") are proprietary intellectual property of the copyright holder.
+
+Permission is hereby granted to view this repository for personal, 
+non-commercial, and educational purposes only.
+
+The following actions are strictly prohibited without prior written 
+permission from the copyright holder:
+
+1. Commercial use of any kind, including but not limited to:
+   - trading, investment, or execution systems
+   - financial modeling, forecasting, or signal generation
+   - consulting, advisory, or research services
+   - incorporation into commercial products or platforms
+
+2. Redistribution, republication, or hosting of the Software or any 
+   derivative works, whether modified or unmodified.
+
+3. Modification, reverse engineering, decompilation, extraction, or 
+   reproduction of any models, signals, algorithms, or methodologies 
+   contained within the Software.
+
+4. Use of the Software, in whole or in part, for the purpose of:
+   - model training or dataset construction
+   - machine learning, AI, or LLM fine-tuning
+   - benchmarking or competitive analysis
+   - feature extraction or signal replication
+
+5. Use of the Software in any trading, execution, or financial decision-
+   making system, whether automated or discretionary.
+
+No license is granted or implied beyond the limited right to view the 
+repository. All other rights are expressly reserved.
+
+For licensing inquiries, contact:
+garrick.pinon@outlook.com
